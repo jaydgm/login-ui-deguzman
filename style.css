@@ -3,15 +3,18 @@
 }
 
 body {
-    font-family: 'Segoe UI', sans-serif;;
-    font-size: 1rem;
-    line-height: 1.6;
-    }
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    background-image: url("https://images.pexels.com/photos/1105391/pexels-photo-1105391.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: 100%;    
+}
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 500px;
 }
 
 .header {
@@ -24,13 +27,23 @@ body {
     justify-content: center;
     align-items: center;
     background: #fafafa;
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 250px;
     border: 1px solid #ddd;
     background: #ffffff;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
 }
 
 .login-input {
     border: 1px solid #eeeeee;
-    width: 100%
+    width: 100%;
+}
+
+button {
+    background: #69d2e7;
+    border: 1px  #ddd;
+    border-radius: 40px;
+    color: #ffffff;
+    width: 100px;
+    text-transform: uppercase;
 }
