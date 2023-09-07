@@ -39,6 +39,11 @@ body {
     width: 100%;
 }
 
+a {
+    font-size: 12px;
+    text-decoration: none;
+}
+
 button {
     background: #69d2e7;
     border: 1px  #ddd;
