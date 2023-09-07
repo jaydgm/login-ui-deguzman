@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;;
+    font-size: 1rem;
+    line-height: 1.6;
+    }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.login-stuff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fafafa;
+    width: 400px;
+    height: 200px;
+    border: 1px solid #ddd;
+    background: #ffffff;
+}
+
+.login-input {
+    border: 1px solid #eeeeee;
+    width: 100%
+}
