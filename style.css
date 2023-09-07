@@ -46,7 +46,7 @@ body {
     height: 20px;
 }
 
-a {
+#forgot {
     font-size: 12px;
     height: 5px;
     text-decoration: none;
@@ -67,4 +67,8 @@ button {
     justify-content: center;
     height: 20px;
     gap: 50px;
+}
+
+a:hover {
+    transform: scale(1.5);
 }
