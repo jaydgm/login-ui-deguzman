@@ -112,3 +112,7 @@ h2, .email-footer::placeholder, .btn::placeholder {
     color: #fff;
     background-color: transparent;
 }
+
+.email-footer::placeholder {
+    color: rgb(221, 193, 193);
+}
