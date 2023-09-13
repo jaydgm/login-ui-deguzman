@@ -6,7 +6,7 @@ body {
     font-family: 'Segoe UI', sans-serif;
     font-size: 16px;
     line-height: 30px;
-    background-color: rgb(172,189,161);
+    background: url("https://images.pexels.com/photos/2117937/pexels-photo-2117937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 }
 
 .container {
@@ -14,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 500px;
-}
+    }
 
 .header {
     font-family: "Lobster", sans-serif;
@@ -31,7 +31,8 @@ body {
     width: 500px;
     height: 330px;
     border: 1px solid #ddd;
-    background: #ffffff;
+    background: url("https://images.pexels.com/photos/268415/pexels-photo-268415.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: 100%;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
 }
@@ -78,11 +79,39 @@ button:hover {
     transform: scale(1.5);
 }
 
-.sign-up {
+.footer {
     display: flex;
-    justify-content: center;  
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-#sign-up {
-    text-decoration: none;
+.left-footer {
+    flex: 1;
+    background-color: black;
+}
+
+h2 {
+    font-size: 11px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.right-footer {
+    flex: 1;
+    background-color: #EA0606;
+}
+
+.input-footer {
+    flex-grow: 2;
+    flex-basis: 5rem;
+    margin: 0;
+    height: 53px;
+    border: 0;
+    color: #fff;
+    background-color: transparent;
 }
