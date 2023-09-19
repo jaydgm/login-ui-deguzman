@@ -76,6 +76,11 @@ button:hover {
     gap: 50px;
 }
 
+.icon {
+    color: rgb(230, 169, 49);
+}
+
+
 .icon:hover {
     transform: scale(1.5);
 }
