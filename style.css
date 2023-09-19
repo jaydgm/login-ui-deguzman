@@ -109,6 +109,10 @@ h2, .email-footer::placeholder, .btn::placeholder {
     background-color: #ee4343;
 }
 
+.email-footer {
+    flex-grow: 2;
+}
+
 .email-footer, .btn {
     border: 0;
     color: #fff;
@@ -117,9 +121,4 @@ h2, .email-footer::placeholder, .btn::placeholder {
 
 .email-footer::placeholder {
     color: rgb(221, 193, 193);
-}
-
-@media screen and (max-width: 1023px)
-.left-footer {
-    width: 100%;
 }
