@@ -6,12 +6,18 @@ body {
     background-image: url("https://images.pexels.com/photos/269126/pexels-photo-269126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 }
 
-.container {
+.container, .login-stuff, .icons, .footer, .left-footer, .right-footer {
     display: flex;
+}
+
+.container, .footer {
+    min-width: 400px;
+}
+
+.container {
     justify-content: center;
     align-items: center;
     height: 500px;
-    min-width: 400px;
     }
 
 .header {
@@ -21,7 +27,6 @@ body {
 }
 
 .login-stuff {
-    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -45,7 +50,7 @@ body {
     background-color: rgb(232, 240, 254);
 }
 
-#forgot {
+#forgot-pw {
     font-size: 12px;
     height: 5px;
     text-decoration: none;
@@ -66,7 +71,6 @@ button:hover {
 }
 
 .icons {
-    display: flex;
     justify-content: center;
     height: 20px;
     gap: 50px;
@@ -77,14 +81,14 @@ button:hover {
 }
 
 .footer {
-    display: flex;
     flex-wrap: wrap;
-    min-width: 400px;
+}
+
+.left-footer, .right-footer {
+    flex: 1;
 }
 
 .left-footer {
-    display: flex;
-    flex: 1;
     background-color: black;
 }
 
@@ -100,8 +104,6 @@ h2, .email-footer::placeholder, .btn::placeholder {
 }
 
 .right-footer {
-    display: flex;
-    flex: 1;
     background-color: #ee4343;
 }
 
