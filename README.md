@@ -1,6 +1,6 @@
 Login UI inspired by coffee shops.
 
-Webpage is not functional, however, button's and text field's are responsive to user input.
+Webpage is not functional, however, content is responsive to resizing up to a certain width.
 
 features:
     - username field
