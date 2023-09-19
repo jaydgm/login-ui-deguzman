@@ -15,6 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 500px;
+    min-width: 400px;
     }
 
 .header {
@@ -81,6 +82,8 @@ button:hover {
 
 .footer {
     display: flex;
+    flex-wrap: wrap;
+    min-width: 400px;
 }
 
 .left-footer {
@@ -103,12 +106,10 @@ h2, .email-footer::placeholder, .btn::placeholder {
 .right-footer {
     display: flex;
     flex: 1;
-    gap: 300px;
     background-color: #ee4343;
 }
 
 .email-footer, .btn {
-    height: 53px;
     border: 0;
     color: #fff;
     background-color: transparent;
@@ -116,4 +117,9 @@ h2, .email-footer::placeholder, .btn::placeholder {
 
 .email-footer::placeholder {
     color: rgb(221, 193, 193);
+}
+
+@media screen and (max-width: 1023px)
+.left-footer {
+    width: 100%;
 }
