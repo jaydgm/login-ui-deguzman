@@ -6,7 +6,7 @@ body {
     background-image: url("https://images.pexels.com/photos/269126/pexels-photo-269126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 }
 
-.container, .login-stuff, .icons, .footer, .left-footer, .right-footer {
+.container, .login-info, .icons, .footer, .left-footer, .right-footer {
     display: flex;
 }
 
